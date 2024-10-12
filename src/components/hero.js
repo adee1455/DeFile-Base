@@ -16,7 +16,7 @@ export default function Hero() {
             <button className="px-2 py-1 rounded-full relative bg-slate-100 text-red-800 text-xs font-medium disabled transition duration-200 border border-slate-600">
                         <div className="absolute inset-x-0  w-1/3 mx-auto  shadow-2xl  bg-gradient-to-r from-transparent via-teal-500 to-transparent" />
                         <span className="relative z-20">
-                          On Sepolia Testnet Only!
+                          On Base Network Only!
                         </span>
             </button>
             </div>

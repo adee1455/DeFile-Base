@@ -92,7 +92,7 @@ export const StickyScroll = ({
                 }}
                 className="text-kg text-gray-600 max-w-sm mt-10"
               >
-                {item.description} {index === 0 && <LinkPreview url="https://blog.chain.link/sepolia-eth/" className="text-black bg-black font-bold">Click here</LinkPreview>}
+                {item.description} {index === 0 && <LinkPreview url="https://coinledger.io/learn/how-to-add-base-to-metamask" className="text-black bg-black font-bold">Click here</LinkPreview>}
               </motion.p>
             </div>
           ))}

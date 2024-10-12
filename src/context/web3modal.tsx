@@ -7,19 +7,19 @@ const projectId = '5d16e2c0f85cdb58d7408b89cd47bf24'
 
 // Define chains
 const mainnet = {
-  chainId: 1,
-  name: 'Ethereum',
+  chainId: 8453,
+  name: 'Base',
   currency: 'ETH',
-  explorerUrl: 'https://etherscan.io',
-  rpcUrl: 'https://cloudflare-eth.com',
+  explorerUrl: 'https://basescan.org',
+  rpcUrl: 'https://mainnet.base.org',
 }
 
 const testnet = {
-  chainId: 11155111,
-  name: 'Sepolia',
-  currency: 'SepoliaETH',
-  explorerUrl: 'https://sepolia.etherscan.io/',
-  rpcUrl: 'https://eth-sepolia.g.alchemy.com/v2/UEi3OlYcSdlnavJoB9mQWf6f2VQGAeBf',
+  chainId: 84532,
+  name: 'Base Sepolia Testnet',
+  currency: 'ETH',
+  explorerUrl: 'https://sepolia.basescan.org',
+  rpcUrl: 'https://sepolia.base.org',
 }
 
 // Metadata for your app
@@ -49,7 +49,7 @@ const ethersConfig = defaultConfig({
 // Create Web3Modal instance
 createWeb3Modal({
   ethersConfig,
-  chains: [testnet],
+  chains: [mainnet],
   projectId,
   enableOnramp: true,
   enableAnalytics: true // Enable analytics

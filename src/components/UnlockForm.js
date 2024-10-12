@@ -30,9 +30,10 @@ const UnlockForm = () => {
             // Call the unlockPaper function from the smart contract
             const tx = await contract.unlockPaper(paperId);
             await tx.wait();
-
+            
             // Fetch IPFS hash
             const ipfsHash = await contract.getIpfsHash(paperId);
+            console.log(ipfsHash);
             const ipfsUrl = `https://black-worldwide-tiger-431.mypinata.cloud/ipfs/${ipfsHash}`;
 
             // Fetch file content from IPFS
