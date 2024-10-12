@@ -23,7 +23,7 @@ module.exports = require("next/dist/compiled/next-server/pages.runtime.dev.js");
 
 /***/ }),
 
-/***/ "path?5aa4":
+/***/ "path":
 /*!***********************!*\
   !*** external "path" ***!
   \***********************/
