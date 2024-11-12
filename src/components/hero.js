@@ -19,6 +19,9 @@ export default function Hero() {
                           On Base Network Only!
                         </span>
             </button>
+                        <button onClick={()=> router.push('https://peerlist.io/adeeshaikh/project/defile')} className='ml-4 bg-black rounded-lg p-1'>
+                          <Image src={'/peerlist.svg'} width={130} height={80}></Image>
+                        </button>
             </div>
                 <h2 className='font-extrabold text-blue-600 sm:text-5xl text-4xl sm:leading-tight sm:tracking-normal items-center'>Seamless, Secure, and Decentralized File Storage.</h2>
                 <p className='pt-5 font-semibold font-mono text-sm '>Easily upload, lock and unlock your files with customizable access periods and authorized users.</p>

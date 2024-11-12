@@ -12,7 +12,7 @@ exports.id = "app/App/page";
 exports.ids = ["app/App/page"];
 exports.modules = {
 
-/***/ "./action-async-storage.external":
+/***/ "./action-async-storage.external?9022":
 /*!****************************************************************************!*\
   !*** external "next/dist/client/components/action-async-storage.external" ***!
   \****************************************************************************/
@@ -23,7 +23,7 @@ module.exports = require("next/dist/client/components/action-async-storage.exter
 
 /***/ }),
 
-/***/ "../../client/components/action-async-storage.external":
+/***/ "./action-async-storage.external?8dda":
 /*!*******************************************************************************!*\
   !*** external "next/dist/client/components/action-async-storage.external.js" ***!
   \*******************************************************************************/
@@ -34,7 +34,7 @@ module.exports = require("next/dist/client/components/action-async-storage.exter
 
 /***/ }),
 
-/***/ "./request-async-storage.external":
+/***/ "./request-async-storage.external?93d0":
 /*!*****************************************************************************!*\
   !*** external "next/dist/client/components/request-async-storage.external" ***!
   \*****************************************************************************/
@@ -45,7 +45,7 @@ module.exports = require("next/dist/client/components/request-async-storage.exte
 
 /***/ }),
 
-/***/ "../../client/components/request-async-storage.external":
+/***/ "./request-async-storage.external?3d59":
 /*!********************************************************************************!*\
   !*** external "next/dist/client/components/request-async-storage.external.js" ***!
   \********************************************************************************/
@@ -56,7 +56,7 @@ module.exports = require("next/dist/client/components/request-async-storage.exte
 
 /***/ }),
 
-/***/ "./static-generation-async-storage.external":
+/***/ "./static-generation-async-storage.external?d822":
 /*!***************************************************************************************!*\
   !*** external "next/dist/client/components/static-generation-async-storage.external" ***!
   \***************************************************************************************/
@@ -67,7 +67,7 @@ module.exports = require("next/dist/client/components/static-generation-async-st
 
 /***/ }),
 
-/***/ "../../client/components/static-generation-async-storage.external":
+/***/ "./static-generation-async-storage.external?16bc":
 /*!******************************************************************************************!*\
   !*** external "next/dist/client/components/static-generation-async-storage.external.js" ***!
   \******************************************************************************************/
@@ -243,6 +243,17 @@ module.exports = require("tls");
 
 /***/ }),
 
+/***/ "tty":
+/*!**********************!*\
+  !*** external "tty" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("tty");
+
+/***/ }),
+
 /***/ "url":
 /*!**********************!*\
   !*** external "url" ***!
@@ -284,36 +295,6 @@ module.exports = require("worker_threads");
 
 "use strict";
 module.exports = require("zlib");
-
-/***/ }),
-
-/***/ "?63cd":
-/*!****************************!*\
-  !*** bufferutil (ignored) ***!
-  \****************************/
-/***/ (() => {
-
-/* (ignored) */
-
-/***/ }),
-
-/***/ "?f624":
-/*!********************************!*\
-  !*** utf-8-validate (ignored) ***!
-  \********************************/
-/***/ (() => {
-
-/* (ignored) */
-
-/***/ }),
-
-/***/ "?4c03":
-/*!***********************!*\
-  !*** debug (ignored) ***!
-  \***********************/
-/***/ (() => {
-
-/* (ignored) */
 
 /***/ }),
 
@@ -542,7 +523,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/@web3modal","vendor-chunks/@walletconnect","vendor-chunks/@ethersproject","vendor-chunks/@coinbase","vendor-chunks/qrcode","vendor-chunks/axios","vendor-chunks/multiformats","vendor-chunks/pngjs","vendor-chunks/@stablelib","vendor-chunks/readable-stream","vendor-chunks/pino","vendor-chunks/hash.js","vendor-chunks/uint8arrays","vendor-chunks/sha.js","vendor-chunks/fast-redact","vendor-chunks/keccak","vendor-chunks/whatwg-url","vendor-chunks/pino-std-serializers","vendor-chunks/dayjs","vendor-chunks/valtio","vendor-chunks/thread-stream","vendor-chunks/unstorage","vendor-chunks/@vercel","vendor-chunks/@lit-labs","vendor-chunks/use-sync-external-store","vendor-chunks/tr46","vendor-chunks/preact","vendor-chunks/inherits","vendor-chunks/follow-redirects","vendor-chunks/node-fetch","vendor-chunks/idb-keyval","vendor-chunks/destr","vendor-chunks/bignumber.js","vendor-chunks/sonic-boom","vendor-chunks/webidl-conversions","vendor-chunks/util-deprecate","vendor-chunks/unfetch","vendor-chunks/string_decoder","vendor-chunks/strict-uri-encode","vendor-chunks/split-on-first","vendor-chunks/safe-stable-stringify","vendor-chunks/safe-buffer","vendor-chunks/quick-format-unescaped","vendor-chunks/query-string","vendor-chunks/proxy-compare","vendor-chunks/process-warning","vendor-chunks/on-exit-leak-free","vendor-chunks/minimalistic-assert","vendor-chunks/lodash.isequal","vendor-chunks/js-sha3","vendor-chunks/isomorphic-unfetch","vendor-chunks/filter-obj","vendor-chunks/eventemitter3","vendor-chunks/encode-utf8","vendor-chunks/dijkstrajs","vendor-chunks/detect-browser","vendor-chunks/decode-uri-component","vendor-chunks/bn.js","vendor-chunks/bech32","vendor-chunks/atomic-sleep"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2FApp%2Fpage&page=%2FApp%2Fpage&appPaths=%2FApp%2Fpage&pagePath=private-next-app-dir%2FApp%2Fpage.js&appDir=%2FUsers%2Fadee%2FWeb3-Dev%2FBaseDefile%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fadee%2FWeb3-Dev%2FBaseDefile&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/@web3modal","vendor-chunks/@walletconnect","vendor-chunks/@ethersproject","vendor-chunks/qrcode","vendor-chunks/axios","vendor-chunks/multiformats","vendor-chunks/pngjs","vendor-chunks/@stablelib","vendor-chunks/readable-stream","vendor-chunks/pino","vendor-chunks/hash.js","vendor-chunks/uint8arrays","vendor-chunks/sha.js","vendor-chunks/fast-redact","vendor-chunks/keccak","vendor-chunks/whatwg-url","vendor-chunks/pino-std-serializers","vendor-chunks/debug","vendor-chunks/dayjs","vendor-chunks/valtio","vendor-chunks/thread-stream","vendor-chunks/unstorage","vendor-chunks/@vercel","vendor-chunks/@lit-labs","vendor-chunks/utf-8-validate","vendor-chunks/use-sync-external-store","vendor-chunks/tr46","vendor-chunks/preact","vendor-chunks/node-gyp-build","vendor-chunks/inherits","vendor-chunks/follow-redirects","vendor-chunks/bufferutil","vendor-chunks/node-fetch","vendor-chunks/idb-keyval","vendor-chunks/destr","vendor-chunks/bignumber.js","vendor-chunks/sonic-boom","vendor-chunks/webidl-conversions","vendor-chunks/util-deprecate","vendor-chunks/unfetch","vendor-chunks/supports-color","vendor-chunks/string_decoder","vendor-chunks/strict-uri-encode","vendor-chunks/split-on-first","vendor-chunks/safe-stable-stringify","vendor-chunks/safe-buffer","vendor-chunks/quick-format-unescaped","vendor-chunks/query-string","vendor-chunks/proxy-compare","vendor-chunks/process-warning","vendor-chunks/on-exit-leak-free","vendor-chunks/ms","vendor-chunks/minimalistic-assert","vendor-chunks/lodash.isequal","vendor-chunks/js-sha3","vendor-chunks/isomorphic-unfetch","vendor-chunks/has-flag","vendor-chunks/filter-obj","vendor-chunks/eventemitter3","vendor-chunks/encode-utf8","vendor-chunks/dijkstrajs","vendor-chunks/detect-browser","vendor-chunks/decode-uri-component","vendor-chunks/bn.js","vendor-chunks/bech32","vendor-chunks/atomic-sleep"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2FApp%2Fpage&page=%2FApp%2Fpage&appPaths=%2FApp%2Fpage&pagePath=private-next-app-dir%2FApp%2Fpage.js&appDir=%2FUsers%2Fadee%2FWeb3-Dev%2FBaseDefile%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fadee%2FWeb3-Dev%2FBaseDefile&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();
